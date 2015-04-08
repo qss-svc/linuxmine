@@ -1,4 +1,8 @@
-
+#
+# install.sh
+# Script to install and begin configuration of MineOS on Debian-based (ubuntu, mint, etc) systems
+# You can use straight from the web via: sudo wget http://git.io/ve1Cb -O - | sh
+#
 # ===> Install pre-requisites
 sudo apt-get update
 sudo apt-get -y install git openjdk-7-jre-headless python-cherrypy3 rdiff-backup screen
